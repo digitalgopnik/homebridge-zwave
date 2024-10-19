@@ -1,15 +1,43 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "homebridge-zwave",
   "pluginType": "platform",
   "singular": true,
   "schema": {
     "type": "object",
     "properties": {
-      "name": {
-        "title": "Name",
+      "username": {
+        "title": "Username",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "admin"
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true,
+        "default": "password"
+      },
+      "baseUrl": {
+        "title": "Base URL",
+        "type": "string",
+        "required": true,
+        "default": "http://localhost:8083"
+      },
+      "pushover": {
+        "title": "Pushover",
+        "type": "object",
+        "properties": {
+          "user": {
+            "title": "User",
+            "type": "string",
+            "required": false
+          },
+          "token": {
+            "title": "Token",
+            "type": "string",
+            "required": false
+          }
+        }
       }
     }
   }

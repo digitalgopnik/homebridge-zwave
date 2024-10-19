@@ -1,22 +1,27 @@
 {
-  "name": "homebridge-plugin-name",
-  "displayName": "Plugin Name",
+  "name": "homebridge-zwave",
+  "displayName": "Homebridge Z-Wave",
   "type": "module",
   "version": "1.0.0",
-  "private": true,
-  "description": "A short description about what your plugin does.",
-  "author": "Your Name",
+  "description": "A homebridge plugin for Z-Wave devices and RaZBerry including pushover notifications",
+  "author": "digitalgopnik <kontakt@christianratz.de> (https://christianratz.de)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/USERNAME/GITHUB_PROJECT_NAME#readme",
+  "homepage": "https://github.com/digitalgopnik/homebridge-zwave#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/digitalgopnik/homebridge-zwave.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/digitalgopnik/homebridge-zwave/issues"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "zway",
+    "z-wave",
+    "zwave",
+    "pushover",
+    "RaZBerry",
+    "HomeKit"
   ],
   "main": "dist/index.js",
   "engines": {
